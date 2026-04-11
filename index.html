@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./icons/counter.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Counter App</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="card">
+      <div class="header">
+        <span class="icon">🔊</span>
+        <h1>Voice Counter App</h1>
+      </div>
+
+      <p class="subtext">Choose the language & click + or -</p>
+
+      <div class="wraper">
+        <select class="select">
+          <option value="US">US</option>
+          <option value="UK">UK</option>
+          <option value="español">español</option>
+          <option value="deutsch">deutsch</option>
+          <option value="français">français</option>
+          <option value="हिन्दी">हिन्दी</option>
+          <option value="bahasa">bahasa</option>
+          <option value="italiano">italiano</option>
+          <option value="日本語">日本語</option>
+          <option value="한국의">한국의</option>
+          <option value="nederlands">nederlands</option>
+          <option value="русский">русский</option>
+          <option value="普通话">普通话</option>
+        </select>
+      </div>
+      <div class="count">0</div>
+      <div class="buttons">
+        <button class="btn decrease">-</button>
+        <button class="btn reset">RESET</button>
+        <button class="btn increase">+</button>
+      </div>
+      <p class="footer">Click + or - to count</p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
