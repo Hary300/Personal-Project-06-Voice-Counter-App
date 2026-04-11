@@ -1,6 +1,7 @@
 # 📢 Voice Counter App
 
 A simple counter application with voice feedback using the Web Speech API (SpeechSynthesisUtterance). Every change in the counter will be spoken aloud.
+Live Demo: https://voice-counter-app.vercel.app/
 
 ---
 
